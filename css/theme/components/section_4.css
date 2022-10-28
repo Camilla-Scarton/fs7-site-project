@@ -1,0 +1,21 @@
+.section_4 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.section_4 .section-box-bottom .section-box {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex: 1;
+}
+
+.section_4 .section-box-bottom .section-box .col-left img {
+  width: 48px;
+  height: 48px;
+}
+
+@media (max-width: 991px) {
+
+}

@@ -1,0 +1,31 @@
+.section_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px
+}
+
+.section_1 .section-content-bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.section_1 .section-content-box .center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_1 .section-content-box .center-image img {
+  height: 58px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.section_1 .section-content-box p {
+  margin-top: 10px;
+}
+
+@media (max-width: 991px) {
+
+}

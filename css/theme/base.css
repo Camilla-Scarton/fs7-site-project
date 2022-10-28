@@ -1,0 +1,172 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  font-size: 16px;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  max-width: 1170px;
+  margin: auto;
+}
+
+.section {
+  padding: 70px 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+li {
+  font-size: 1em;
+  line-height: 1.55em;
+}
+
+i {
+  font-size: 1em;
+  line-height: 1.1em;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.55em;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 1.9em;
+  line-height: 1.3em;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1.8em;
+  line-height: 1.3em;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 1.2em;
+  line-height: 1.8em;
+  font-weight: 500;
+}
+
+h3, h4, h5, p, li, i {
+  margin: 0;
+}
+
+h3.upper, h4.upper, h5.upper, p.upper, li.upper, i.upper {
+  text-transform: uppercase;
+}
+
+li.default {
+  color: var(--deafult-li-color);
+}
+
+li.inverse {
+  color: var(--inverse-li-color)
+}
+
+p.default,
+i.default {
+  color: var(--deafult-text-color);
+}
+
+p.inverse,
+i.inverse {
+  color: var(--inverse-text-color)
+}
+
+h3.default,
+h4.default,
+h5.default {
+  color: var(--deafult-title-color);
+}
+
+h3.inverse,
+h4.inverse,
+h5.inverse {
+  color: var(--inverse-title-color)
+}
+
+button.gradient {
+  color: white;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 30px;
+  font-weight: 500;
+  cursor: pointer;
+  background: linear-gradient(135deg, var(--gradient-color-generic-from) 0%, var(--gradient-color-generic-to) 100%);
+}
+
+button.gradient:hover {
+  background: linear-gradient(135deg, var(--gradient-color-generic-to) 0%, var(--gradient-color-generic-from)  100%);
+}
+
+div.gradient {
+  background: linear-gradient(135deg, var(--gradient-color-generic-from) 0%, var(--gradient-color-generic-to) 100%);
+}
+
+button.gradient.upper {
+  text-transform: uppercase;
+}
+
+.bg-primary {
+  background-color: var(--bg-color-primary);
+}
+
+.bg-secondary {
+  background-color: var(--bg-color-secondary);
+}
+
+.bg-inverse {
+  background-color: var(--bg-color-inverse);
+}
+
+.bg-gradient {
+  background: linear-gradient(135deg, var(--gradient-color-generic-to) 0%, var(--gradient-color-generic-from)  100%);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+
+}

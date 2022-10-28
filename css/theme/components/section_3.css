@@ -1,0 +1,15 @@
+.section_3 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section_3 .section-box-bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+@media (max-width: 991px) {
+
+}

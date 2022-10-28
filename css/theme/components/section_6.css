@@ -1,0 +1,25 @@
+.section_6 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.section_6 .section-col-left,
+.section_6 .section-col-right {
+  width: 50%;
+}
+
+.section_6 .section-col-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section_6 .section-col-right img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 991px) {
+
+}

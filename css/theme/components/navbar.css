@@ -1,0 +1,125 @@
+nav {
+  position: absolute;
+  width: 100vw;
+}
+
+.navbar {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 98px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: transparent;
+  border-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.navbar .navbar-logo .navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: #fff!important;
+  float: left;
+  padding: 15px 15px;
+  line-height: 20px;
+}
+
+.navbar .navbar-menu .navbar-menu-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .navbar-menu .navbar-menu-links .menu-link {
+  padding: 15px 0;
+}
+
+.navbar .navbar-menu .navbar-menu-links .menu-link a {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px;
+  line-height: 28px;
+}
+
+.navbar .navbar-menu .navbar-menu-links .menu-link.cta a {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+button.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.navbar-toggle .line-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+button.navbar-toggle .line-bar:not(:last-of-type) {
+  margin-bottom: 3px;
+}
+
+@media (max-width: 991px) {
+  .navbar .navbar-menu button.navbar-toggle {
+    border-color: #fff !important;
+  }
+
+  .navbar .navbar-menu button.navbar-toggle .line-bar {
+    background-color: #fff !important;
+  }
+
+  .navbar .navbar-menu {
+    position: relative;
+  }
+
+  .navbar .navbar-menu .navbar-menu-links {
+    display: none;
+  }
+
+  .navbar .navbar-menu:hover .navbar-menu-links {
+    display: block;
+    position: absolute;
+    width: 96vw;
+    background-color: #ffffff;
+    right: calc(100% - 44px);
+    top: 90%;
+    border-radius: 10px;
+  }
+
+  .navbar .navbar-menu:hover .navbar-menu-links a {
+    color: rgba(0, 0, 0, 0.7);
+    width: calc(100% - 40px);
+    text-align: center;
+    display: block;
+    margin: 0 20px;
+    border-radius: 5px;
+    font-size: 1.5em;
+  }
+
+  .navbar .navbar-menu:hover .navbar-menu-links .menu-link {
+    width: 100%;
+    padding: 5px 10px;
+  }
+
+  .navbar .navbar-menu:hover .navbar-menu-links a:hover {
+    color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+}

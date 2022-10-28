@@ -1,0 +1,15 @@
+.section_5 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.section_5 .section-box-bottom {
+  margin: auto;
+  width: 100%;
+  max-width: 770px;
+}
+
+@media (max-width: 991px) {
+
+}

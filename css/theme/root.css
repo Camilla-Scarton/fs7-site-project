@@ -1,0 +1,26 @@
+:root {
+  /* GRADIENTS OVERLAY */
+  --gradient-color-overlay-from: #123457;
+  --gradient-color-overlay-to: #123457;
+  /* GRADIENTS GENERIC */
+  --gradient-color-generic-from: #6B02FF;
+  --gradient-color-generic-to: #985BEF;
+  /* TEXT COLORS */
+  --deafult-title-color: rgba(0, 0, 0, 0.8);
+  --inverse-title-color: rgba(255, 255, 255, 0.9);
+  --deafult-text-color: rgba(0, 0, 0, 0.4);
+  --inverse-text-color: #a8a8ac;
+  --deafult-li-color: rgba(0, 0, 0, 0.5);
+  --inverse-li-color: rgba(255, 255, 255, 0.7);
+  /* BG COLORS */
+  --bg-color-primary: #ffffff;
+  --bg-color-secondary: #f2f7f8;
+  --bg-color-inverse: #272834;
+  /* TEAM CARD COLORS */
+  --bg-tcard-color: #f4f5f6;
+  --bg-tcard-color-inverse: #1d1e2b;
+  /* ACCORDION COLORS */
+  --accordion-a-border-open-color: #4385f4;
+  --accordion-a-border-closed-color: #f3f3f3;
+  --accordion-a-color: #656565;
+}
